@@ -1,0 +1,133 @@
+/* =================== */
+/* Reuseable Component */
+/* =================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-weight: 500;
+    font-size: 35px;
+}
+h4{
+
+}
+p{
+    font-size: 15px;
+    color: rgb(0, 0, 0, 0.7);
+}
+.btn{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(45deg, #EC4F90, #ED4B73);
+    padding: 8px 25px;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+.container{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin: auto;
+}
+
+/* ============== */
+/* Header Section */
+/* ============== */
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url('/Images/header-bg.png');
+}
+
+.left-header{
+    margin-top: 50%;
+}
+
+.left-header span{
+    color: #ED4B73;
+    font-weight: 700;
+    font-size: 45px;
+    letter-spacing: 3px;
+}
+
+.left-header p{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.right-header{
+    margin-top: 35%;
+}
+
+.right-header img{
+    width: 80%;
+}
+
+/* ================= */
+/* Biography Section */
+/* ================= */
+
+.biography{
+    width: 100%;
+    height: 100vh;
+    background-image: url('/Images/biography-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.left-biography img{
+    width: 80%;
+    margin-top: 15%;
+}
+
+.right-biography{
+    margin-top: 30%;
+}
+
+.right-biography p{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+/* =================== */
+/* Latest Work Section */
+/* =================== */
+
+.work{
+    width: 100%;
+    height: 700px;
+    background-image: url('/Images/latest-work-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.work h1{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.work-container{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.img-warp{
+    width: 100%;
+}
+.img-warp img{
+    width: 100%;
+}
+
+
